@@ -184,6 +184,8 @@ public class DangerFragment extends Fragment {
     // 매번 저장이 제대로 되는지 확인
     // 파일 conflict나지 않도록 조정
 
+    // 음성 인식하는 모든 부분에서 데시밸 측정해서 특정 데시밸 이상에서만 분석을 요청하고 데시벨 이하에 대해서는 배경음으로 출력하기
+
     /*
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
